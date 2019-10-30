@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Bindable.h"
-#include "BindableCodex.h"
+// Removed "#include "BindableCodex.h" " as it is including itself :)
 #include <type_traits>
 #include <memory>
 #include <unordered_map>
